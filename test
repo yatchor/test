@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登陆页面</title>
+<style>
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+	.login {
+		max-width: 400px;
+		height: 200px;
+		margin: auto;
+		margin-top: 50px;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+   
+	.input {
+		width: 100%;
+        max-width: 300px;
+		height: 30px;
+		padding-left: 10px;
+		margin-top: 20px;
+		margin-left: 50px;
+    border-radius: 5px;
+	}
+	.button {
+		width: 300px;
+		height: 35px;
+		width: 316px;
+		height: 40px;
+		margin-top: 20px;
+		margin-left: 50px;
+		border-radius: 5px;
+		background-color: #1170FF;
+		cursor: pointer;
+		color: #fff;
+	}
+	
+</style>
+</head>
+<body>
+  <div style="
+      background-color: #f1f1f1;
+      text-align:center;
+      padding: 30px;
+      font-size: 10px;
+    ">
+    <img src='https://pic.imgdb.cn/item/66436bb40ea9cb140311d64a.png' title="点我点我有什么变化" alt="Alex"width="100px"height="100px">
+    <h1>壹〇伍</h1> 
+  </div>
+   <div class="login">
+        <form action="" >     
+             <input   class="input" type="text" name="user" placeholder="账号"><br>  
+             <input  class="input" type="password" name="password" placeholder="密码">                             
+        </form> <button class="button"> 登录</button> 
+   </div>
+    </div>
+    <div style="
+      background-color: #f1f1f1;
+      text-align:center;
+      padding:40px;
+      font-size:12px;
+      line-height: 1;
+      margin-top: 50px;
+    ">
+      <p>我的网站</p>
+      <p>https://yatchor.github.io/com</p>
+      <a href="https://yatchor.github.io/dn/">壹〇伍</a>
+    </div>
+
+           
+</body>
+</html>
